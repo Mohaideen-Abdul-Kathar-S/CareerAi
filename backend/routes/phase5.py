@@ -1,7 +1,13 @@
 import json
+import os
 import re
+from typing import List
 
-from fastapi import APIRouter, File, Form, UploadFile
+from fastapi import APIRouter, File, Form, HTTPException, UploadFile
+from pydantic import BaseModel
+import requests
+
+
 
 from models.schemas import AnswerRequest, FinalReportRequest
 from services.phase5_ai_service import generate_ai_response
@@ -140,3 +146,5 @@ def final_report(data: FinalReportRequest):
         return parsed
 
     return {"error": "Could not parse AI JSON report", "raw_response": result}
+
+

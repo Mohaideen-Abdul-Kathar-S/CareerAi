@@ -1,7 +1,10 @@
+import json
+import os
 from typing import List, Optional
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, EmailStr
+import requests
 from db import auth_collection
 from pypdf import PdfReader
 from dotenv import load_dotenv
@@ -23,6 +26,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174",
+        "https://careerai-ebk7.onrender.com",
     ],
     allow_credentials=False,
     allow_methods=["*"],
@@ -260,6 +264,95 @@ def b2b_licence(email: str, b2blicence: str):
 
     return {"message": f"B2B licence updated to '{b2blicence}' for {email}"}
     
+
+
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY_A")
+
+# -------------------------
+# Request Model
+# -------------------------
+class InterviewRequest(BaseModel):
+    questions: List[str]
+    answers: List[str]
+
+# -------------------------
+# Response Model
+# -------------------------
+class EvaluationReport(BaseModel):
+    summary: str
+    overallScore: float
+    technicalScore: float
+    communicationScore: float
+    problemSolvingScore: float
+    culturalFitScore: float
+    strengths: List[str]
+    weaknesses: List[str]
+    improvementPlan: List[str]
+
+# -------------------------
+# Evaluation Endpoint
+# -------------------------
+@app.post("/evaluateanswers", response_model=EvaluationReport)
+async def evaluate_answers(data: InterviewRequest):
+
+    if not OPENROUTER_API_KEY:
+        raise HTTPException(status_code=500, detail="API Key not configured")
+
+    combined_text = ""
+    for q, a in zip(data.questions, data.answers):
+        combined_text += f"Question: {q}\nAnswer: {a}\n\n"
+
+    prompt = f"""
+    You are an AI technical interviewer.
+
+    Evaluate the candidate's answers and return STRICT JSON in this format:
+
+    {{
+      "summary": "...",
+      "overallScore": 0-100,
+      "technicalScore": 0-100,
+      "communicationScore": 0-100,
+      "problemSolvingScore": 0-100,
+      "culturalFitScore": 0-100,
+      "strengths": ["..."],
+      "weaknesses": ["..."],
+      "improvementPlan": ["..."]
+    }}
+
+    Interview Data:
+    {combined_text}
+    """
+
+    try:
+        response = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers={
+                "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": "openai/gpt-4o-mini",
+                "messages": [
+                    {"role": "system", "content": "You are an expert interview evaluator."},
+                    {"role": "user", "content": prompt},
+                ],
+                "temperature": 0.3,
+            },
+        )
+
+        result = response.json()
+
+        content = result["choices"][0]["message"]["content"]
+
+        # Ensure valid JSON output
+        parsed = json.loads(content)
+
+        return parsed
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 @app.get('/')
 def Welcome():
     return {"Greeting": "Welcome"}
