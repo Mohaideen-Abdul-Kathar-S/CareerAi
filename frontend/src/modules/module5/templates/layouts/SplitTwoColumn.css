@@ -1,0 +1,78 @@
+.split-container {
+  display: flex;
+  min-height: 100%;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* LEFT COLUMN */
+.split-left {
+  width: 35%;
+  background: #e6f2ff;   /* Light Blue */
+  padding: 30px;
+  border-right: 2px solid #cce0ff;
+}
+
+.split-name {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #003366;
+}
+
+.split-headline {
+  font-size: 16px;
+  margin-bottom: 25px;
+  color: #1f4e79;
+}
+
+.split-section {
+  margin-bottom: 30px;
+}
+
+.split-section h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #99c2ff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #003366;
+}
+
+.split-section ul {
+  padding-left: 15px;
+}
+
+.split-section li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+/* RIGHT COLUMN */
+.split-right {
+  width: 65%;
+  padding: 40px;
+  background: #ffffff;
+}
+
+.split-right h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #99c2ff;
+  padding-bottom: 6px;
+  color: #003366;
+}
+
+.split-item {
+  margin-bottom: 20px;
+}
+
+.split-item h4 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.split-company {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}

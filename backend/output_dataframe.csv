@@ -1,0 +1,75 @@
+Text,Font Size,Text_RGB,Background_RGB,Contrast_Ratio,Visible
+MOHAIDEEN ABDUL KATHAR S,18.006784439086914,"(0, 0, 0)","(255, 255, 255)",21.0,True
+katharportfolio.netlify.app,8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+linkedin.com/in/mohaideen-abdul-kathar-s-3b7b842aa/,8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+github.com/Mohaideen-Abdul-Kathar-S,8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+leetcode.com/u/MOHAIDEEN-ABDUL-KATHAR-S/,8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
++91 96599 91439 | mohaideenabdulkathars@gmail.com,8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+TECHNICAL SKILLS,14.000275611877441,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Programming Languages : Java, Python",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+", node.js, javascript",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+"Frameworks & Libraries : Flutter, REST APIs",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+", express.js, spring boot",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+Databases : MySQL,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+", mongodb",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+"Core Concepts : DBMS,  Full Stack Development",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+", OOPs",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+"Developer Tools : VS Code, Postman, Git",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+",  Amazon Web Services, Docker",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+system design : Creational design patterns,10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False
+PROJECTS,14.000275611877441,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Retail Shop Attendance System,10.999144554138184,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Location-based attendance management app with employee login/logout, leave management, and manager-",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+controlled approvals.,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Role: Project planner, team coordinator, and full-stack contributor.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Tech Stack: Flutter, Spring Boot, MongoDB, REST APIs.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+AlumNex – Alumni–Student Connection Mobile Application,10.999144554138184,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Developed a mobile application to connect alumni and students with secure roll number–based,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"authentication and AI-powered ID verification. Enabled mentorship, personal chat, forums, event",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"management, meeting scheduling, certificate distribution, and auto profile  building by resume.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Role: Team Leader; involved in project planning, full-stack (frontend & backend) development, and AI",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+integration.,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Tech Stack: Flutter, Flask, MongoDB, REST APIs, FastAPI, Gemini AI API.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Driver Drowsiness Detection System (DDDS),10.999144554138184,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Built an AI-based driver drowsiness detection system using edge computing and IoT, with marker-based AR",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+simulation to visualize alerts in a car prototype.,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Role: Team Leader – Led AR integration efforts, model training, and team coordination.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Tech Stack: AR, IoT, Edge Computing, Python.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Grocery Management and Ordering System,10.999144554138184,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Developed a digital platform for efficient grocery ordering and inventory management with simplified,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"product handling, search optimization, chatbot support, image-based search, and feedback system.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Role: Team Leader; contributed to project planning, backend development, AI integration, and frontend",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+development.,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Tech Stack: MERN Stack, Python, ViT-B/32 Model, MongoDB.",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+EDUCATION,14.000275611877441,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Kongu Engineering College,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Sep 2023 - May 2027,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+B.E. Computer Science and Design                                                                                               CGPA - 8.84 ( till 5  semester),10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+th,5.994758605957031,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Government Boys Higher Secondary School,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Jun 2022 - Mar 2023,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+HSC - Computer Science and Maths                                                                                                               Percentage: 79.50%,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+LEADERSHIP EXPERIENCE,14.000275611877441,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Computer Science and Design Coding Club                                                                                                      Jun 2025 - Present,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Joint Secretary,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Placement Coordinator of Computer Science and Design,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Jan 2025 - Present,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"Batch 2023-2027, Section B",10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+ACHIEVEMENTS ,14.000275611877441,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Winner ,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+- August 2025,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Techno Cultural Fest - App,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+ Department Level,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Winner,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+ - January 2026,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+HackNova'26 - AR/VR,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+ Department Level,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Runner,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+ - March 2025,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+E-Horizon'25 - App,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+Institution Level,10.00126838684082,"(0, 0, 0)","(255, 255, 255)",21.0,True
+[ Link ],8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+[ Link ],8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+[ Link ],8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+[ Link ],8.003040313720703,"(0, 0, 0)","(255, 255, 255)",21.0,True
+"CI/CD, distributed systems and microservices architecture, DevOps, Waterfall model, ",10.00126838684082,"(255, 255, 255)","(255, 255, 255)",1.0,False

@@ -1,0 +1,73 @@
+.chiko-container {
+  padding: 50px;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.chiko-header h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.chiko-contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #555;
+}
+
+.chiko-summary-card {
+  background-color: #f3f4f6;
+  padding: 18px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.chiko-section {
+  margin-top: 30px;
+}
+
+.chiko-section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.chiko-exp-item {
+  border-left: 3px solid #333;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.chiko-exp-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.chiko-exp-item span {
+  font-weight: normal;
+  font-size: 14px;
+  color: #777;
+}
+
+.chiko-exp-item ul {
+  margin-left: 18px;
+  margin-top: 5px;
+}
+
+.chiko-exp-item li {
+  margin-bottom: 5px;
+}
+
+.chiko-headline {
+  font-size: 18px;
+  font-weight: 500;
+  color: #4b5563;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}

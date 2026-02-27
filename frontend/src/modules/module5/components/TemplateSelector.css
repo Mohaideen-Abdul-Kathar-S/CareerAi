@@ -1,0 +1,30 @@
+.template-selector {
+  margin-top: 20px;
+}
+
+.template-selector h3 {
+  margin-bottom: 10px;
+}
+
+.template-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.active-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}

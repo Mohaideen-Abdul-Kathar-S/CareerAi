@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-dotenv
+pypdf
+python-multipart
+openai
+requests
+PyMuPDF
+certifi
+pandas
+numpy
+email-validator

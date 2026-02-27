@@ -1,0 +1,72 @@
+.accent-container {
+  padding: 40px;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+.accent-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.accent-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.accent-line {
+  width: 60px;
+  height: 4px;
+  background-color: #4f7cac;
+  margin: 8px auto;
+  border-radius: 4px;
+}
+
+.accent-job {
+  font-size: 18px;
+  color: #4f7cac;
+  margin-bottom: 8px;
+}
+
+.accent-contact {
+  font-size: 14px;
+  color: #555;
+}
+
+.accent-section {
+  margin-top: 30px;
+}
+
+.accent-section h3 {
+  color: #4f7cac;
+  font-size: 18px;
+  margin-bottom: 8px;
+  border-bottom: 2px solid #4f7cac;
+  padding-bottom: 4px;
+}
+
+.accent-item {
+  margin-top: 15px;
+}
+
+.accent-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accent-row h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.accent-row span {
+  font-size: 14px;
+  color: #666;
+}
+
+.accent-company {
+  font-style: italic;
+  margin-bottom: 4px;
+}

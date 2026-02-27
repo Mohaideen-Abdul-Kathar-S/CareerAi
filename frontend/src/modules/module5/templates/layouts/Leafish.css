@@ -1,0 +1,96 @@
+.leafish-container {
+  background: #f3f4f6;
+  padding: 50px;
+  font-family: "Segoe UI", sans-serif;
+  color: #1f2937;
+}
+
+.leafish-header h1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.leafish-header h3 {
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 15px;
+}
+
+.leafish-contact span {
+  margin-right: 20px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.leafish-body {
+  display: flex;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.leafish-left {
+  flex: 2;
+}
+
+.leafish-right {
+  flex: 1;
+}
+
+.leafish-section {
+  margin-bottom: 35px;
+}
+
+.leafish-section h2 {
+  border-bottom: 3px solid #1f2937;
+  padding-bottom: 6px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.leafish-exp h4 {
+  margin: 5px 0;
+}
+
+.leafish-company {
+  font-weight: 600;
+}
+
+.leafish-date {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.leafish-skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.leafish-tag {
+  background: #e5e7eb;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.leafish-language {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.leafish-dots {
+  display: flex;
+  gap: 5px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #d1d5db;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #374151;
+}

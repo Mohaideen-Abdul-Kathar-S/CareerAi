@@ -1,0 +1,75 @@
+.blue-container {
+  font-family: "Segoe UI", sans-serif;
+  background: white;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* ===== HEADER ===== */
+.blue-header {
+  background: #0f1e6b;
+  color: white;
+  padding: 30px;
+}
+
+.blue-header h1 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.blue-header p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+/* ===== BODY ===== */
+.blue-body {
+  display: flex;
+}
+
+/* LEFT COLUMN */
+.blue-left {
+  width: 30%;
+  padding: 25px;
+  background: #f4f6fb;
+  border-right: 3px solid #0f1e6b;
+}
+
+/* RIGHT COLUMN */
+.blue-right {
+  width: 70%;
+  padding: 30px;
+}
+
+/* ===== SECTION ===== */
+.blue-section {
+  margin-bottom: 25px;
+}
+
+.blue-section h3 {
+  border-bottom: 2px solid #0f1e6b;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* ITEMS */
+.blue-item {
+  margin-bottom: 12px;
+}
+
+.blue-item strong {
+  font-size: 14px;
+}
+
+.blue-item span {
+  font-size: 12px;
+  color: gray;
+}
+
+/* LIST STYLE */
+.blue-section ul {
+  padding-left: 18px;
+}
