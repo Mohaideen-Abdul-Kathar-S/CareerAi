@@ -11,12 +11,12 @@ const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL;
 
 // Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyDeubqSTNUAEoVFOBAFfa7Vlpyc4WZw0rU",
-    authDomain: "sample-94c13.firebaseapp.com",
-    projectId: "sample-94c13",
-    storageBucket: "sample-94c13.firebasestorage.app",
-    messagingSenderId: "250348827919",
-    appId: "1:250348827919:web:de9c163a25fdb7421efa7a"
+  apiKey: "AIzaSyCbFD5EORGdmElG_WgbJiV-ruAHpXCB-v0",
+  authDomain: "careerai-17c1c.firebaseapp.com",
+  projectId: "careerai-17c1c",
+  storageBucket: "careerai-17c1c.firebasestorage.app",
+  messagingSenderId: "63370984314",
+  appId: "1:63370984314:web:688cbd1a101484be90f4c3"
 };
 
 // Initialize Firebase once
