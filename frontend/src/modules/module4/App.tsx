@@ -44,8 +44,7 @@ interface ApiCareerSwitchResponse {
 }
 
 const API_BASE_URL =
-  (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_API_BASE_URL ||
-  'http://127.0.0.1:8000';
+  (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_API_BASE_URL;
 
 function getDifficulty(skillName: string): 'Easy' | 'Medium' | 'Advanced' {
   const normalized = skillName.toLowerCase();

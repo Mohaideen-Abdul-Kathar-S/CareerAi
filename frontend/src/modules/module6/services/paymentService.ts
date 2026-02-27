@@ -11,8 +11,7 @@ export type RazorpayOrder = {
 };
 
 const PAYMENT_API_BASE_URL =
-  (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_API_BASE_URL ||
-  'http://127.0.0.1:8000';
+  (import.meta as ImportMeta & { env?: Record<string, string> }).env?.VITE_API_BASE_URL;
 
 export async function createOrder(amount: number): Promise<RazorpayOrder> {
   const response = await fetch(`${PAYMENT_API_BASE_URL}/payment/create-order`, {

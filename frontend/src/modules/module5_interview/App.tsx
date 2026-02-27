@@ -190,25 +190,45 @@ export default function App() {
   };
 
   const handleCompleteInterview = async () => {
-    setAppState(AppState.EVALUATING);
-    setIsLoading(true);
-    setErrorMessage('');
-    try {
-      const evaluation = await interviewApi.getFinalReport(interviewData.sessionId);
-      setReport(evaluation);
-      setAppState(AppState.REPORT);
-    } catch (err) {
-      console.error(err);
-      setErrorMessage(
-        err instanceof Error
-          ? err.message
-          : 'Failed to generate final report. Please try again.'
-      );
-      setAppState(AppState.IDLE);
-    } finally {
-      setIsLoading(false);
+  setAppState(AppState.EVALUATING);
+  setIsLoading(true);
+  setErrorMessage('');
+
+  try {
+    const response = await fetch(
+      `${(import.meta as any).env.VITE_API_BASE_URL}/evaluateanswers`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          questions: questions.map((q) => q.text), // adjust if needed
+          answers: userAnswers,
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error('Failed to evaluate answers');
     }
-  };
+
+    const evaluation: EvaluationReport = await response.json();
+
+    setReport(evaluation);
+    setAppState(AppState.REPORT);
+  } catch (err) {
+    console.error(err);
+    setErrorMessage(
+      err instanceof Error
+        ? err.message
+        : 'Failed to generate final report. Please try again.'
+    );
+    setAppState(AppState.IDLE);
+  } finally {
+    setIsLoading(false);
+  }
+};
 
   const resetInterview = () => {
     setAppState(AppState.IDLE);

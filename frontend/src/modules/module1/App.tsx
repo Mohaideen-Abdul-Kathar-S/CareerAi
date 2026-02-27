@@ -6,7 +6,7 @@ import type { AnalysisData } from './components/AnalysisResults';
 
 // Removed local AnalysisData interface to avoid conflict with imported type
 
-const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL;
 
 
 function parseScore(value: unknown): number {

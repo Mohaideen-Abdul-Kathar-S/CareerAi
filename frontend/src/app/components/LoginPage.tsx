@@ -7,7 +7,7 @@ import {
     signInWithPopup
 } from "firebase/auth";
 
-const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL;
 
 // Firebase configuration
 const firebaseConfig = {

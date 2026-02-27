@@ -19,7 +19,8 @@ interface ScreenResumesParams {
   jobDescription?: string;
 }
 
-const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL || 'http://127.0.0.1:8000';
+const API_BASE_URL = (import.meta as any).env.VITE_API_BASE_URL;
+console.log(API_BASE_URL);
 
 function normalizeScore(value: number | string | undefined): number {
   if (typeof value === 'number' && Number.isFinite(value)) {
