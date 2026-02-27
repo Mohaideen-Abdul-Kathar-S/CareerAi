@@ -1,5 +1,5 @@
 import React from "react";
-import "./Blue.css";
+import "./blue.css";
 
 const Blue = ({ data }) => {
   const {
